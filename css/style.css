@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* Color of Day mode */
 body {
     display: flex;
     flex-direction: column;
@@ -12,6 +13,7 @@ body {
     transition: background 0.4s linear;
 }
 
+/* Color of Dark mode */
 body.dark {
     background-color: #292C35;
 }
@@ -24,6 +26,7 @@ body.dark p {
     position: absolute;
 }
 
+/* Moves the knob switch off/on */
 .checkbox:checked + .label .ball {
     transform: translateX(24px);
 }
@@ -41,6 +44,8 @@ body.dark p {
     transform-scale(1.5);
 }
 
+
+/*Changes the knob of the switch*/
 .ball {
     background-color: #fff;
     border-radius: 50%;
@@ -52,10 +57,12 @@ body.dark p {
     transition: transform 0.2s linear;
 }
 
+/* Color of Moon icon */
 .fa-moon {
     color: #f1c40f;
 }
 
+/* Color of Sun icon  */
 .fa-sun {
     color: #f39c12;
 }
